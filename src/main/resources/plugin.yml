@@ -1,0 +1,6 @@
+name: ThreeHearts
+main: com.example.threeblue.ThreeBlueHearts
+version: 1.0
+api-version: 1.21
+author: Jermaine
+description: "Gibt jedem Spieler 3 blaue Absorptionsherzen, PvP-only Leben, Ban bei 0."
