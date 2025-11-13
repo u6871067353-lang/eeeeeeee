@@ -10,13 +10,21 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-  </properties>
-  <dependencies>
-    <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot-api</artifactId>
-      <version>1.21.1-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
-</project>
+<repositories>
+    <repository>
+        <id>spigot-repo</id>
+        <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+    </repository>
+    <repository>
+        <id>sonatype</id>
+        <url>https://oss.sonatype.org/content/groups/public/</url>
+    </repository>
+</repositories>
+<dependency>
+    <groupId>org.spigotmc</groupId>
+    <artifactId>spigot-api</artifactId>
+   <version>1.21.4-R0.1-SNAPSHOT</version>
+    <scope>provided</scope>
+</dependency>
+
+
